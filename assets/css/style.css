@@ -32,16 +32,18 @@ header {
     border-bottom: 2px solid #042A5A;
     opacity: 0.6;
     position: fixed;
+    width: 100vw;
 }
 
 header p {
     display: inline;
-    padding-left: 15vw;
+    text-align: center;
+    margin-left: 15vw;
 }
 
 header p:nth-of-type(2) {
     text-align: right;
-    padding-left: 60vw;
+    margin-left: 60vw;
 }
 
 /* Hero Section Style */
@@ -196,7 +198,6 @@ main section:nth-of-type(3) article:nth-of-type(2) {
     padding: 10% 0 10% 0;
     margin: 5% 15% 5% 5%;
     text-align: right;
-    
 }
 
 main section:nth-of-type(3) article:nth-of-type(2) h3 {
@@ -236,10 +237,11 @@ main section:nth-of-type(3) article:nth-of-type(4) h3 {
     width: 45%;
     display: inline-block;
 }
+
 /* Footer Styles */
+
 footer {
-    background-color: 
-    #D2D2D2;
+    background-color: #D2D2D2;
     color: #388883;
     text-align: left;
 }
@@ -264,10 +266,11 @@ footer p {
     padding: 2%;
 }
 
-footer ul li{
-text-align: right;
-padding:0.5% 4vw; 
+footer ul li {
+    text-align: right;
+    padding: 0.5% 4vw;
 }
+
 footer ul li:last-of-type {
     padding-bottom: 3%;
 }
